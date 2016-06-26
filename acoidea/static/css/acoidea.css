@@ -52,16 +52,16 @@ body {
 .breadcrumb {
     padding: 50px 0px;
     margin-top: 30px;
+    margin-bottom: -12px;
     list-style: none;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 19px;
+    font-weight: 500;
     background-color: transparent;
-    color: #FFF;
+    color: #231F20;
 }
 
-
 .breadcrumb>.active {
-    color: #231F20;
+    color: #007CE1;
 }
 
 .custom{

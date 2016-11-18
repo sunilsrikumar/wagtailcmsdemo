@@ -397,6 +397,7 @@ class StandardIndexPage(Page):
     )
 
     search_fields = Page.search_fields + (
+        index.SearchField('body'),
         index.SearchField('intro'),
     )
 
